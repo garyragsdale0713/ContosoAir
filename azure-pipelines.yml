@@ -6,7 +6,7 @@
 pool:
   vmImage: ubuntu-16.04
 trigger:
-  -	master 
+-	master 
 steps:
   -	task: Npm@1
     inputs:
